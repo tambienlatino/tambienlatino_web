@@ -1,11 +1,17 @@
-# to do
-- [x] dark mode
-- [x] shadcdn + aceternity
-- [x] navbar
+Our purpose is to help latin american communities to achieve their best at well being, finances, productivity. Throught the technology we have the power to impact significally in big scale, it is our choice to make it a positive impact.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Getting Started | Install
 
-## Getting Started
+Zero, Install all dependencies
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
 
 First, run the development server:
 
@@ -21,21 +27,34 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How to contribute
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. fork the project
 
-## Learn More
+2. follow these steps:
+```bash
+# get your forked repo to your machine
+git clone https://github.com/<your_github_user>/tambienlatino_web.git
 
-To learn more about Next.js, take a look at the following resources:
+git pull # make sure you get the latest version of the remote repo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+git switch -c <feature/your_branch_feature> # set the new branch
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+git add . # append your changes
+
+git commit -m "file create | <your feature description>" # describe your changes
+
+git push -u origin <feature/your_branch_feature>
+
+```
 
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# to do
+- [x] dark mode
+- [x] shadcdn + aceternity
+- [x] navbar
